@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>rock paper scissors</title>
+	<link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<header>
+		<h1 id="score">PC : 0 ---- player : 0</h1>
+	</header>
+	<div class="main">
+		<img class="pc-choice" src="https://www.campcanary.co.uk/uploads/rock-icon-grey.png" alt="rock">
+		<img class="pc-choice" src="https://www.campcanary.co.uk/uploads/paper-icon-grey.png" alt="rock">
+		<img class="pc-choice" src="https://www.campcanary.co.uk/uploads/scissors-icon-grey.png" alt="rock">
+		<hr width="70%" size="2" color=black>
+		<img class="player-choice" src="https://www.campcanary.co.uk/uploads/rock-icon-grey.png" alt="rock">
+		<img class="player-choice" src="https://www.campcanary.co.uk/uploads/paper-icon-grey.png" alt="rock">
+		<img class="player-choice" src="https://www.campcanary.co.uk/uploads/scissors-icon-grey.png" alt="rock">
+		<div id="screen">
+			<h1>Game over</h1>
+			<h2 id="check">you Win</h2>
+			<button class="end-btn" onclick="replay()">play again</button>
+			<button class="end-btn" onclick="reset(2)">Rest</button>
+		</div>
+	</div>
+	<div id="startup">
+		<h1>lets play <br><br> ROCK, PAPER, SCISSORS!</h1>
+		<button onclick="reset(1)">Begin</button>
+	</div>
+	<footer id="footer">
+		<img onclick="play(0)" class="player-decision" src="https://www.campcanary.co.uk/uploads/rock-icon-grey.png" alt="rock">
+		<img onclick="play(1)" class="player-decision" src="https://www.campcanary.co.uk/uploads/paper-icon-grey.png" alt="rock">
+		<img onclick="play(2)" class="player-decision" src="https://www.campcanary.co.uk/uploads/scissors-icon-grey.png" alt="rock">
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
