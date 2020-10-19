@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 body {
   font-family: "Electrolize", sans-serif;
@@ -89,13 +90,11 @@ footer .player-decision {
 }
 #startup {
   position: absolute;
-  top: 40px;
-  bottom: 0;
+  top: 17%;
   right: 0;
   left: 0;
   margin: auto;
   width: 86%;
-  height: 50%;
   z-index: 1;
   background: #000;
   color: white;
