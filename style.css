@@ -6,7 +6,7 @@
 body {
   font-family: "Electrolize", sans-serif;
   text-align: center;
-  min-width: 630px;
+  max-width: 100%;
 }
 header {
   background: #000;
@@ -43,16 +43,16 @@ img.player-choice {
   background: black;
   color: white;
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 50%;
   right: 0;
   left: 0;
   margin: auto;
-  height: 200px;
   padding: 20px;
   border-radius: 30px;
   display: none;
   transition: 1s;
+  transform: translate(0, -50%);
+  transform-origin: center;
 }
 .main #screen h1 {
   font-size: 50px;
