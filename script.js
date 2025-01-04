@@ -31,13 +31,13 @@ var plScore=0,pcScore=0,pc=document.getElementsByClassName('pc-choice'),pl=docum
 			}
 			
 			if(check=="it\'s a draw"){
-				board.innerHTML= "PC : "+ pcScore + " ---- player : "+plScore;
+				board.innerHTML= "Computer : "+ pcScore + " ---- player : "+plScore;
 			}else if(check=="You Win"){
 				plScore++;
-				board.innerHTML= "PC : "+ pcScore + " ---- player : "+plScore;
+				board.innerHTML= "Computer : "+ pcScore + " ---- player : "+plScore;
 			}else if(check=="You Lose"){
 				pcScore++;
-				board.innerHTML= "PC : "+ pcScore + " ---- player : "+plScore;
+				board.innerHTML= "Computer : "+ pcScore + " ---- player : "+plScore;
 			}
 			if(plScore==5){alert('Impossible how did you beat me');
 			plScore=0;pcScore=0;
