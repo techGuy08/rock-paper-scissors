@@ -48,7 +48,7 @@ var plScore=0,pcScore=0,pc=document.getElementsByClassName('pc-choice'),pl=docum
 				pc[i].style.visibility="hidden";
 				pl[i].style.visibility="hidden";
 			}
-			board.innerHTML= "PC : "+ pcScore + " ---- player : "+plScore;}
+			board.innerHTML= "Computer : "+ pcScore + " ---- player : "+plScore;}
 			else if(pcScore==5){alert('you still think you can beat me then go ahead and try');
 			plScore=0;pcScore=0;
 				document.getElementById("screen").style.display="none";
